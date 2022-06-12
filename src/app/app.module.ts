@@ -8,12 +8,18 @@ import { AppComponent } from './app.component';
 import { CabeceraComponent } from './cabecera/cabecera.component';
 import { FooterComponent } from './footer/footer.component';
 import { InicioComponent } from './inicio/inicio.component';
+import { LoginComponent } from './login/login.component';
 
 const routes: Routes = [
   { 
     path: 'inicio', 
     component: InicioComponent 
-  }
+  },
+  { 
+    path: 'login', 
+    component: LoginComponent 
+  },
+
 ];
 
 @NgModule({
@@ -21,7 +27,8 @@ const routes: Routes = [
     AppComponent,
     CabeceraComponent,
     FooterComponent,
-    InicioComponent
+    InicioComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
