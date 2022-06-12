@@ -3,26 +3,29 @@
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <!------ Include the above in your HEAD tag ---------->
 
-<div class="wrapper fadeInDown">
-  <div id="formContent">
-    <!-- Tabs Titles -->
-
-    <!-- Icon -->
-    <div class="fadeIn first">
-      <img src="../../assets/logo_inicio.png" id="icon" alt="User Icon"/>
+<div class="container">
+  <div class="wrapper fadeInDown">
+    <div id="formContent">
+      <!-- Tabs Titles -->
+  
+      <!-- Icon -->
+      <div class="fadeIn first">
+        <img src="../../assets/logo_inicio.png" id="icon" alt="User Icon"/>
+      </div>
+  
+      <!-- Login Form -->
+      <form>
+        <input type="text" id="login" class="fadeIn second" name="login" placeholder="Usuario">
+        <input type="text" id="password" class="fadeIn third" name="login" placeholder="Contraseña">
+        <input type="submit" class="fadeIn fourth" value="Ingresar">
+      </form>
+  
+      <!-- Remind Passowrd -->
+      <div id="formFooter">
+        <a class="underlineHover" href="#">Olvido la contraseña?</a>
+      </div>
+  
     </div>
-
-    <!-- Login Form -->
-    <form>
-      <input type="text" id="login" class="fadeIn second" name="login" placeholder="Usuario">
-      <input type="text" id="password" class="fadeIn third" name="login" placeholder="Contraseña">
-      <input type="submit" class="fadeIn fourth" value="Entrar">
-    </form>
-
-    <!-- Remind Passowrd -->
-    <div id="formFooter">
-      <a class="underlineHover" href="#">Olvido la contraseña?</a>
-    </div>
-
   </div>
+  
 </div>

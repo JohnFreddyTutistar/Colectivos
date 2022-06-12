@@ -1,6 +1,10 @@
 .container{
+    display: flex;
     background: rgb(243, 243, 243);
+    height: 90vh;
+
 }
 .inicio-container{
-    margin-top: 150px;
+    margin: auto;
+    z-index: 5;
 }

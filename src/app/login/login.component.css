@@ -1,7 +1,9 @@
-html {
-    background-color: #56baed;
+  .container{
+    display: flex;
+    background: rgb(243, 243, 243);
+    height: 90vh;
+
   }
-  
   a {
     color: #92badd;
     display:inline-block;
@@ -27,7 +29,7 @@ html {
     width: 100%;
     min-height: 100%;
     padding: 20px;
-    margin-top: 50px;
+    margin: auto;
   }
   
   #formContent {
@@ -65,7 +67,7 @@ html {
     border-bottom: 2px solid #5fbae9;
   }
   input[type=button], input[type=submit], input[type=reset]  {
-    background-color: #999;
+    background-color: #39ace7;
     border: none;
     color: white;
     padding: 15px 80px;
@@ -85,7 +87,7 @@ html {
   }
   
   input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover  {
-    background-color: #39ace7;
+    background-color: #2f8bb9;
   }
   input[type=button]:active, input[type=submit]:active, input[type=reset]:active  {
     -moz-transform: scale(0.95);
