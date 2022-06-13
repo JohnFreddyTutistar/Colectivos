@@ -9,6 +9,7 @@ import { CabeceraComponent } from './cabecera/cabecera.component';
 import { FooterComponent } from './footer/footer.component';
 import { InicioComponent } from './inicio/inicio.component';
 import { LoginComponent } from './login/login.component';
+import { RegistroComponent } from './registro/registro.component';
 
 const routes: Routes = [
   { 
@@ -19,6 +20,10 @@ const routes: Routes = [
     path: 'login', 
     component: LoginComponent 
   },
+  {
+    path: 'registro', 
+    component: RegistroComponent 
+  }
 
 ];
 
@@ -28,7 +33,8 @@ const routes: Routes = [
     CabeceraComponent,
     FooterComponent,
     InicioComponent,
-    LoginComponent
+    LoginComponent,
+    RegistroComponent
   ],
   imports: [
     BrowserModule,
